@@ -11,5 +11,22 @@
     "16": "logo.png",
     "48": "logo.png",
     "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "save": {
+      "suggested_key": {
+        "default": "Alt+Shift+S"
+      },
+      "description": "Save a link"
+    },
+    "random": {
+      "suggested_key": {
+        "default": "Alt+Shift+L"
+      },
+      "description": "Load a random link"
+    }
   }
 }
